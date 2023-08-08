@@ -7,7 +7,7 @@
                         <div class="py-3 px-6 mb-0 bg-gray-200 border-b-1 border-gray-300 text-gray-900">
                             <h3 class="mb-3">Form Donasi</h3>
                         </div>
-                        <div class="flex-auto p-6"> 
+                        <div class="flex-auto p-6" > 
                             <list-donatur @selectedDonatur="selectedDonatur"/>
                             <lokasi-bencana @selectedBantuan="selectedBantuan"/>
                             <div class="mb-4">
