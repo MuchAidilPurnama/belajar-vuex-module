@@ -3,7 +3,8 @@ import donatur from "./modules/donatur";
 import clients from "./modules/clients";
 import transaksi from "./modules/transaksi";
 import user from "./modules/user";
-import gunung from "./modules/gunung"
+import gunung from "./modules/gunung";
+import produk from "./modules/produk"
 
 const store = createStore({
     state: {
@@ -14,7 +15,8 @@ const store = createStore({
         clients,
         transaksi,
         user,
-        gunung
+        gunung,
+        produk
     },
 });
 

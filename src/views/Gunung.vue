@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto sm:px-4">
-        <h1 class="text-center b">Fetch Gunung</h1>
+    <div class="container mx-auto sm:px-4"><br>
+        <h1 class="text-center b">Fetch Gunung</h1><br>
     <table class="table-auto" align="center">
         <thead>
             <tr>
