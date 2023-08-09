@@ -3,7 +3,8 @@ import Home from "../views/Home.vue";
 import User from "../views/User.vue";
 import Gunung from "../views/Gunung.vue";
 import Produk from "../views/Produk.vue";
-import SingleProduk from "../views/SingleProduk.vue"
+import SingleProduk from "../views/SingleProduk.vue";
+import Kategori from "../views/Kategori.vue"
 const routes = [
     {
         path: "/",
@@ -29,6 +30,11 @@ const routes = [
         path: "/produk/:id",
         name: "SingleProduk",
         component: SingleProduk,
+    },
+    {
+        path: "/kategori",
+        name: "Kategori",
+        component: Kategori,
     },
 ];
 
