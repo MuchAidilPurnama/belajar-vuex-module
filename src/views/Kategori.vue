@@ -9,7 +9,8 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-x-4 md:gap-x-7 w-full">
                         <div v-for="kategori in getKategori" class="relative group flex justify-center items-center h-full w-full" >
                             <img class="object-center object-cover h-full w-full" src="https://www.blibli.com/friends-backend/wp-content/uploads/2022/12/produk-elektronik-jepang-vs-korea-scaled.jpg" alt="elektronik-image"  />
-                            <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 bottom-4 z-10 absolute text-base font-medium leading-none text-gray-800 py-3 w-36 bg-white">{{kategori}}</button>
+                            <router-link :to="{ name: 'FilterKategori', params: { kategori: kategori }}" 
+                            class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 bottom-4 z-10 absolute text-base font-medium leading-none text-gray-800 py-3 w-36 bg-white">{{kategori}}</router-link>
                             <div class="absolute opacity-0 group-hover:opacity-100 transition duration-500 bottom-3 py-6 z-0 px-20 w-36 bg-white bg-opacity-50"></div>
                         </div>
                   </div>

@@ -25,6 +25,7 @@ const kategori = {
         SET_KATEGORIS(state, kategori) {
             state.kategoriData = kategori;
         },
+        
     },
 };
 
