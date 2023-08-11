@@ -1,6 +1,6 @@
 <template>
     <br>
-    <h1 align="center">Kategori {{ categoryName }}</h1>
+    <h1 align="center">Kategori</h1>
     <div class="flex-container">
         <div v-for="produk in filteredProduk" :key="produk.id" class="card">
         <router-link class="container" :to="{ name : 'SingleProduk', params:{id: produk.id}}">
