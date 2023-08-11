@@ -7,6 +7,7 @@ import gunung from "./modules/gunung";
 import produk from "./modules/produk";
 import kategori from "./modules/kategori";
 import auth from "./modules/auth";
+import notification from "./modules/notification";
 
 const store = createStore({
     state: {
@@ -20,7 +21,8 @@ const store = createStore({
         gunung,
         produk,
         kategori,
-        auth
+        auth,
+        notification
     },
 });
 
